@@ -15,6 +15,7 @@ html,body{
     height: 100vh;
     width: 100vw;
     position: relative;
+    overflow-x: hidden;
     background-color: #c2bab1;
 }
 
@@ -65,7 +66,7 @@ html,body{
 }
 
 #elem2{
-    width: 25%;
+    width: 30%;
     height: 100%;    
     padding: 20 60px;
     text-align: center;
@@ -159,5 +160,37 @@ html,body{
      font-family: Editorial New;
  
   }
- 
+
+  #elem2 h2{   
+    font-size: 55px;    
+    font-family: Editorial New;
+
+  }
+  #elem2 h3{   
+    font-size: 30px;    
+    font-weight: 100;
+    font-family: Editorial New;
+    margin: 20px 0px;
+
+  }
+  #elem2 h6{   
+      font-size: 23px;    
+      font-weight: 100;
+      color:#1c1c1a;
+    font-family: Editorial New;
+  }
+  
+  #page1 h1{
+        font-size: 400px;
+        font-family: Canopee;
+        font-weight: 400;
+        text-align: center;
+        background-color: #1c1c19;
+        color: #c7bfb5;        
+        width: 96%;
+        margin-left:2%;
+        letter-spacing: -20px;
+        margin-top: 2%;
+      
+  }
  
