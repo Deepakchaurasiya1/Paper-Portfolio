@@ -106,7 +106,7 @@ html,body{
 }
 
 #elem1 h4{  
-   font-size: 22px;
+   font-size: 41px;   
    margin-top: 20px;
    margin-bottom: 20px; 
    font-family: Editorial New;
@@ -123,4 +123,41 @@ html,body{
     border-radius: 5px;
  }
  
+ #elem1 p{  
+    font-size: 23px;       
+    font-weight: 300;
+    color:#1c1c1a;
+    text-align: justify;
+    font-family: Editorial New;
 
+ }
+
+ 
+#elem3 h4{  
+    font-size: 41px;   
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-family: Editorial New;
+ }
+ 
+ #elem3 span{  
+     padding: 4px;
+     font-size: 18px;
+     font-weight: 100;
+     color: #bfada0;
+     margin-left: 10px;
+     background-color:#b63c12;
+     font-family:Canopee;
+     border-radius: 5px;
+  }
+  
+  #elem3 p{  
+     font-size: 23px;       
+     font-weight: 300;
+     color:#1c1c1a;
+     text-align: justify;
+     font-family: Editorial New;
+ 
+  }
+ 
+ 
