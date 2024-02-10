@@ -202,6 +202,47 @@ html,body{
   #page2{
     height: 150vh;
     width: 100%;   
-    background-color: #c2bab1;       
+    background-color: #c2bab1;      
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 50px;
+
+  }
+
+  #page2-left{
+        height: 100%;
+        width: 40%;
+        padding-right: 40px;
+        /* background-color: red; */
+
+  }
+
+  #page2-left h2{
+    font-size: 90px;
+    font-family: Canopee;  
+    line-height: 100px; 
+    font-weight: 100;  
+   
+}
+
+#page2-left img{
+    height: 60%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+#page2-left h2 span{
+    font-size: 150px;
+    font-family: Canopee;
+    text-align: center;
+    line-height: 90px;  
+    font-weight: 800;
+    
+}
+
+  #page2-right{
+    height: 100%;
 
   }
