@@ -17,10 +17,10 @@ html,body{
 }
 
 #page1{
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
     background-color: #c2bab1;
 }
 
@@ -199,3 +199,9 @@ html,body{
       
   }
  
+  #page2{
+    height: 150vh;
+    width: 100%;   
+    background-color: #c2bab1;       
+
+  }
