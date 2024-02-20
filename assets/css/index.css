@@ -1,8 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-
+    box-sizing: border-box;    
 }
 
 html,
@@ -10,6 +9,10 @@ body {
     height: 100%;
     width: 100%;
 }
+
+/* Loder Here */
+ 
+/* Loader End Here */
 
 #main {
     background-color: #1c1c19;
@@ -217,7 +220,7 @@ body {
     width: 40%;
     height: 100%;
     padding-right: 40px;
-    border-image: 1px solid red ;
+    border-right: 1px solid #8f8982;
 
 }
 
@@ -226,6 +229,8 @@ body {
     font-family: Canopee;
     line-height: 100px;
     font-weight: 100;
+    margin-left: 10%;
+    margin-bottom: 5%;
 
 }
 
@@ -239,14 +244,14 @@ body {
     font-size: 30px;
     color: #1c1c19;
     font-family: Editorial New;
-
+    margin-top: 5%;   
 }
 
 #page2-left p span {
     font-size: 54px;
     color: #8f8982;
-    margin: 20px;
-    font-family: Editorial New;
+    /* margin: 20px; */
+    font-family: Editorial New;  
     background-color: #000000;
 
 }
@@ -257,19 +262,55 @@ body {
     font-family: Canopee;
     text-align: center;
     line-height: 90px;
-    font-weight: 800;
+    font-weight: 800;   
 
 }
 
 #page2-right {
     height: 100%;
     width: 60%;
-    padding: 0 50px;
+    padding: 0 60px;
 
 }
 
 #page2-right img{
     height: 60%;
     width: 100%;
+    object-fit: cover;
+    border: solid 1px black;
 
+}
+
+#page2-right h1{
+    font-family: canopee;
+    font-size: 80px;
+    letter-spacing:-1px ;
+    font-weight: 900;
+    
+}
+
+#page3{
+    position: relative;   
+    background-color:#c2bab1;
+}
+#page3 h1{    
+    font-size: 350px;
+    font-family: Canopee;
+    font-weight: 400;      
+    color: #c7bfb5;
+    width: fit-content;    
+    margin-left: 2%;
+    letter-spacing: -20px;   
+    background-color: #000000;  
+    padding: 10px;
+
+}
+
+#page3 img{
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 3%;
+
+     
 }
