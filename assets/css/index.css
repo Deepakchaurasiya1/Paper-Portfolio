@@ -317,7 +317,95 @@ body {
      
 }
 
-#page4{
-    background-color: #c2bab1;
+#page4{  
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;  
+    background-color: #c2bab1;    
+}
+#page4-1 {
+    width: 30%;
+    height: 100%;
+}
+#page4-1 p {
+    font-size: 23px;
+    font-weight: 300;
+    color: #1c1c1a;
+    text-align: justify;
+    font-family: Editorial New;
+}
+#page4-1 #image-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#page4-2 {
+    width: 30%;
+    height: 100%;    
+    text-align: center;        
+    border-right: 2px solid #8f8982;      
+}
+#page4-2 h2 {
+    font-size: 60px;
+    font-family: Canopee;
+    text-align: center;
+    line-height: 58px;  
+    font-weight: 900;   
+}
+#page4-2 h3 {
+    font-size: 55px;
+    font-weight: 100;    
+    font-family: Editorial New;
+    margin: 20px 0px;       
+    text-align: left;
+}
 
+#page4-2 h6 {
+    font-size: 23px;
+    font-weight: 100;
+    color: #1c1c1a;
+    font-family: Editorial New;
+   padding-right: 40%;
+}
+#page4-2 span { 
+    font-weight: bold;
+}
+
+#page4-3 h4 {
+    font-size: 41px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Editorial New;
+}
+
+#page4-3 span {
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #bfada0;
+    margin-left: 10px;
+    background-color: #b63c12;
+    font-family: Canopee;
+    border-radius: 5px;
+
+}
+
+#page4-3 p {
+    font-size: 23px;
+    font-weight: 300;
+    color: #1c1c1a;
+    text-align: justify;
+    font-family: Editorial New;
+
+}
+#page4-3{
+    width: 30%;
+    height: 100%;
+}
+#page4-3 #image-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
 }
