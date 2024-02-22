@@ -321,13 +321,15 @@ body {
     height: 430px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 40px 60px;  
+    padding-bottom: 100px;
+    justify-content: space-between;
     background-color: #c2bab1;    
 }
 #page4-1 {
     width: 30%;
     height: 100%;
+    border-right: 1px solid #000;
 }
 #page4-1 p {
     font-size: 23px;
@@ -335,18 +337,25 @@ body {
     color: #1c1c1a;
     text-align: justify;
     font-family: Editorial New;
+    cursor:grab;
 }
 #page4-1 #image-div {
     height: 60%;
     width: 100%;
     overflow: hidden;
 }
+#page4-1 #headingimg img{
+    width: 50%;
+    cursor:grab;
+    margin: 20px 0px;
+}
+
 #page4-2 {
     width: 30%;
     height: 100%;    
     text-align: center;        
     border-right: 2px solid #8f8982; 
-   
+    
 }
 #page4-2 h2 {
     font-size: 52px;
@@ -374,14 +383,27 @@ body {
 #page4-2 span { 
     font-weight: bold;
 }
-
-#page4-3 h4 {
-    font-size: 41px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: Editorial New;
+#page4-3{
+    width: 30%;
+    height: 100%;
+    border-left: 1px solid #000;
 }
 
+#page4-3 h2{  
+    font-size: 70px; 
+    font-weight: 400;
+    text-align: center;
+    line-height: 2px;
+    font-family: Canopee;
+
+}
+#page4-3 h1{   
+    font-size: 120px; 
+    font-weight: 900;
+    text-align: center;
+    font-family: Canopee;
+
+}
 #page4-3 span {
     padding: 4px;
     font-size: 18px;
@@ -402,12 +424,4 @@ body {
     font-family: Editorial New;
 
 }
-#page4-3{
-    width: 30%;
-    height: 100%;
-}
-#page4-3 #image-div {
-    height: 60%;
-    width: 100%;
-    overflow: hidden;
-}
+
