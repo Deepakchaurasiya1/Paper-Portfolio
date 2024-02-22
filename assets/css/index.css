@@ -345,20 +345,22 @@ body {
     width: 30%;
     height: 100%;    
     text-align: center;        
-    border-right: 2px solid #8f8982;      
+    border-right: 2px solid #8f8982; 
+   
 }
 #page4-2 h2 {
-    font-size: 60px;
+    font-size: 52px;
     font-family: Canopee;
     text-align: center;
     line-height: 58px;  
     font-weight: 900;   
+    padding-right: 15%;
 }
 #page4-2 h3 {
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 100;    
     font-family: Editorial New;
-    margin: 20px 0px;       
+    margin: 20px 10px;       
     text-align: left;
 }
 
